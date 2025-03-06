@@ -1,0 +1,17 @@
+/*@import "tailwindcss";*/
+@tailwind components;
+@tailwind base;
+@tailwind utilities;
+
+.grid { 
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid-two-cols{
+  grid-template-columns: repeat(2,1fr);
+}
+
+.grid-three-cols{
+  grid-template-columns: repeat(3,1fr);
+}
