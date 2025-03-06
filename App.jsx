@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import TextToSpeech from "./components/TextToSpeech";
+import TextToSpeech from "./TextToSpeech";
 import './App.css';
-import Translate from './components/Translate';
+import Translate from './Translate';
 
 export const App = () => {
   const [text, setText] = useState('');
